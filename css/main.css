@@ -1,0 +1,97 @@
+body{
+  text-align: center;
+  background-image: url('../img/resto.jpg');
+  /*background-repeat: no-repeat;*/
+  background-size: ;
+  /*background-size:1024px 1024px;;*/
+  background-color: rgba(84, 104, 110,.7);
+}
+/****removing the bullet on the navigation menu****/
+ul{
+  list-style: none;
+}
+/****removing the underline on every links***/
+a{
+  text-decoration: none;
+}
+/***giving a color and dimension to the header ****/
+header{
+  background: rgba(173, 48, 48, 0.9);
+  width: 100%;
+  height: 5em;
+}
+/*****floating menu to the right side of the page*****/
+nav li a{
+  display: inline-block;
+  float: left;
+  padding-top: 3em;
+  padding-right: 2em;
+  position: relative;
+  left: 350px;
+  margin:0;
+  color: #000;
+  text-transform: uppercase;
+}
+nav ul{
+  background-color: black;
+}
+nav a.selected, nav a:hover{
+  color: #fff;
+}
+
+/****floating logo to the left side of the page****/
+#logo{
+  float: left;
+  height: 5em;
+  width: 15em;
+  border-radius: 50%;
+}
+/***creater a wrapper and body-wrapper and then give them some background color to make things nore visible***/
+#body-wrapper{
+  width: 75%;
+  height: 70%;
+  margin-left: 12em;
+  /*background-image: url('../img/table.jpg');*/
+  background-size: 70% 70%;
+}
+#wrapper{
+  width: 100%;
+  height: 70%;
+  background: rgba(0,0,0, 0.9);
+  margin: auto;
+}
+
+.dishes li{
+  background-color: lightgrey;
+  float: left;
+  clear: right;
+  width: 20%;
+  margin:0.9%;
+  margin-right: 40px;
+  /*padding-left: 12em;*/
+}
+.dishes li  a p{
+  background-color: lightgrey;
+  font-size: .9em;
+}
+/*.dishes ul li a:nth-child(even){
+
+  padding-left: 100px;
+}*/
+/******customizing the footer********/
+footer{
+  clear: both;
+  /*border: 2px solid rgba(0,0,0, 0.68);;*/
+  background: rgba(173, 48, 48, 0.9);
+  font-weight: bold;
+  height: 100px;
+}
+.icon{
+  padding-top: 20px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+footer > p{
+  padding-bottom: 10px;
+}
